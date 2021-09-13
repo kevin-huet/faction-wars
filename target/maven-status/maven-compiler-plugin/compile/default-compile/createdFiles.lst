@@ -1,0 +1,4 @@
+io\github\kevinhuet\survival\command\InitCommands.class
+io\github\kevinhuet\survival\event\block\BreakBlockEvent.class
+io\github\kevinhuet\survival\App.class
+io\github\kevinhuet\survival\event\InitEvents.class

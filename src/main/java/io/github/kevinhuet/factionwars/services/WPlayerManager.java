@@ -8,7 +8,7 @@ import java.util.List;
 
 public class WPlayerManager {
 
-    private WPlayerManager instance = null;
+    private static WPlayerManager instance = null;
 
     private List<WPlayer> playerList = new ArrayList<>();
 
@@ -23,9 +23,9 @@ public class WPlayerManager {
         return this.playerList.stream().filter(p -> p.getPlayer().equals(player)).findFirst().orElse(null);
     }
 
-    public WPlayerManager getInstance() {
-        if (this.instance == null)
-            this.instance = new WPlayerManager();
-        return this;
+    public static WPlayerManager getInstance() {
+        if (instance == null)
+            instance = new WPlayerManager();
+        return instance;
     }
 }

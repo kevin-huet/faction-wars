@@ -16,7 +16,7 @@ public class Assault {
 
     private int costPoint;
 
-    private double percent
+    private double percent;
 
     public Assault() {
     }

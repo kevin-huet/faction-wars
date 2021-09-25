@@ -1,3 +1,6 @@
 name: survival
 version: 1.0
-main: io.github.kevinhuet.survival.App
+main: io.github.kevinhuet.factionwars.App
+commands:
+  f:
+    description: faction
